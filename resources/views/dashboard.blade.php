@@ -12,9 +12,11 @@
 
             <div class="flex flex-col gap-4 py-4">
                 @forelse ($posts as $p)
-                    <x-post-item :post="$p" />
+                    <x-post-item :post="$p">
+                        <div class="text-center text-gray-400 dark:text-gray-600 py-12">No posts were found.</div>flex-col gap-4 
+                    </x-post-item>
                 @empty
-                    <div class="text-center text-gray-400 dark:text-gray-600 py-12">No posts were found.</div>flex-col gap-4 
+                    {{ $slot }}
                 @endforelse
             </div>
 

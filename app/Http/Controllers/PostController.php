@@ -31,7 +31,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+        return view('post.create');
     }
 
     /**
@@ -39,7 +39,13 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'category_id'=>['required', 'exists:categories,id'],
+            'title'=>'required',
+            'content'=>'required',
+            'image'=>['required', 'image', 'mimes:jpeg,png,jpg,gif,svg', 'max:2048'],
+            // same as 'image'=>'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+        ]);
     }
 
     /**

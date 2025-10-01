@@ -1,13 +1,13 @@
-<ul class="flex flex-wrap -mb-px">
+<ul class="flex flex-wrap -mb-px text-lg">
     <li class="me-2">
         <a href="#"
-            class="inline-block p-4 text-blue-600 border-b-2 border-blue-600 rounded-t-lg active dark:text-blue-500 dark:border-blue-500"
+            class="inline-block px-4 text-blue-600 border-b-2 border-blue-600 rounded-t-lg active dark:text-blue-500 dark:border-blue-500 transition duration-300 ease-in-out"
             aria-current="page">{{ 'All' }}</a>
     </li>
     @foreach ($categories as $category)
         <li class="me-2">
             <a href="#"
-                class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">
+                class="inline-block px-4 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 transition duration-300 ease-in-out">
                 {{ $category->name }} </a>
         </li>
     @endforeach

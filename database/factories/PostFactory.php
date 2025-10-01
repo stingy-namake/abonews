@@ -17,7 +17,7 @@ class PostFactory extends Factory
      */
     public function definition(): array
     {
-        $title = fake()->sentence();
+        $title = fake()->sentence(5);
         
         return [
             'image' => fake()->imageUrl(),

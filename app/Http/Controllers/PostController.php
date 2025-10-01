@@ -21,7 +21,7 @@ class PostController extends Controller
         // dump($categories);
         // dd($categories); //'dump and die', stops the code execution after dumping
 
-        return view('dashboard',[
+        return view('post.index',[
             'posts' => $posts
         ]);
     }

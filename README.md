@@ -1,6 +1,3 @@
-This is a template for a README file for your project. I've included standard sections along with a detailed **Future Enhancements** section based on your requests.
-
-````markdown
 # ADO NEWS PORTAL (Laravel CRUD)
 
 A simple,"modern", and categorized news/blog platform dedicated to tracking news and updates about the artist Ado. Built using the **Laravel** framework and styled with **Tailwind CSS**.
@@ -74,4 +71,4 @@ The following features are planned to complete the CRUD functionality, improve m
 ### 3. Social & User Features
 - [ ] **Comments System:** Implement a dedicated `Comment` model and relationship to allow users (and potentially guests) to leave comments on posts.
 - [ ] **User Avatars:** Integrate a method (e.g., local storage, S3, or a service like Gravatar) to allow users to add or display profile avatars.
-````
+

@@ -1,6 +1,9 @@
 <div class="bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 flex max-w-full">
-    <a href="#" class="w-52 h-52 flex-shrink-0">
-        <img class="rounded-l-lg" src="https://media1.tenor.com/m/dSe20nsPMK8AAAAC/ado.gif" alt="" />
+    <a href="#" class="w-52 h-52 flex-shrink-0 relative overflow-hidden">
+        <img class="rounded-l-lg object-cover w-full h-full" src="{{ Storage::url($post->image)}}" alt="" />
+        
+        {{-- Gradient Overlay --}}
+        {{-- <div class="absolute inset-0 bg-gradient-to-r from-transparent to-white dark:to-gray-800"></div>  --}}
     </a>
     <div class="p-5 flex-grow flex flex-col justify-between">
         <article>
@@ -14,7 +17,7 @@
             </div>
         </article>
         <div class="flex justify-end">
-            <a href="#" class="">
+            <a href="#">
                 <x-primary-button>
                     Read more
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"

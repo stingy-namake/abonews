@@ -2,7 +2,10 @@
 
 A simple,"modern", and categorized news/blog platform dedicated to tracking news and updates about the artist Ado. Built using the **Laravel** framework and styled with **Tailwind CSS**.
 
-<img src="https://i.pinimg.com/736x/f4/32/a6/f432a63b29dfae75dff1432eb4b60b62.jpg" alt="Ado News Portal Screenshot" width="200"/>
+<div align="center">
+    <img src="https://i.pinimg.com/736x/f4/32/a6/f432a63b29dfae75dff1432eb4b60b62.jpg" alt="Ado News Portal Screenshot" width="200"/>
+</div>
+
 ---
 
 ## Features

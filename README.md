@@ -1,4 +1,4 @@
-# ADO NEWS PORTAL (Laravel CRUD)
+# Abo News (Laravel CRUD)
 
 A simple,"modern", and categorized news/blog platform dedicated to tracking news and updates about the artist Ado. Built using the **Laravel** framework and styled with **Tailwind CSS**.
 

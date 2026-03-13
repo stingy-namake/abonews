@@ -1,9 +1,4 @@
 <div align="center">
-  <br />
-    <a href="https://github.com/[your-username]/abo-news">
-        <img src="https://i.pinimg.com/736x/f4/32/a6/f432a63b29dfae75dff1432eb4b60b62.jpg" alt="Abo News Portal Logo" width="160">
-    </a>
-  <br />
   <h1>🎤 Abo News · Ado Fan Portal</h1>
   <p>
     <strong>A modern, categorized news platform dedicated to tracking the latest updates, releases, and tours for the artist Ado.</strong>
@@ -57,7 +52,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/[your-username]/abo-news.git
+    git clone https://github.com/stingy-namake/abo-news.git
     cd abo-news
     ```
 

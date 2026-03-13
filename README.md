@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🎤 Abo News · Ado Fan Portal</h1>
+  <h1>🎤 Abo News · Ado Fan Portal Built Using Laravel!</h1>
   <p>
     <strong>A modern, categorized news platform dedicated to tracking the latest updates, releases, and tours for the artist Ado.</strong>
   </p>

@@ -17,7 +17,8 @@
 **Abo News** is a full-featured CRUD application built to serve as a central hub for news about the artist Ado. This project demonstrates a clean implementation of the Laravel framework with a sleek, responsive frontend styled by Tailwind CSS. It showcases best practices in MVC architecture, database relationships, and user interface design.
 
 <div align="center">
-    <img src="https://i.pinimg.com/736x/f4/32/a6/f432a63b29dfae75dff1432eb4b60b62.jpg" alt="Abo News Portal Screenshot" width="80%" style="border-radius: 8px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);"/>
+    <img src="https://github.com/stingy-namake/abonews/blob/main/shots/Screenshot_2026-03-13_12-08-26.png?raw=true" alt="Abo News Portal Screenshot" width="80%" style="border-radius: 8px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);"/>
+    <img src="https://github.com/stingy-namake/abonews/blob/main/shots/Screenshot_2026-03-13_12-13-52.png?raw=true" alt="Abo News Portal Screenshot" width="80%" style="border-radius: 8px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);"/>
     <p><em>⚡ Clean, dark-themed UI for an immersive fan experience.</em></p>
 </div>
 
